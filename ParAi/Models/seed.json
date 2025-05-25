@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": "A1B2C3D4-E5F6-7890-1234-56789ABCDEF0",
+      "name": "Hasan",
+      "settings": {
+        "id": "S1",
+        "currency": "TRY",
+        "aiModel": "flash"
+      },
+      "transactions": [
+        {
+          "id": "T1",
+          "type": "income",
+          "category": "Salary",
+          "amount": 25000.00,
+          "date": "2024-06-01T09:00:00Z",
+          "note": "Monthly salary",
+          "repeatIntervalDays": 30,
+          "wantOrNeed": null
+        },
+        {
+          "id": "T2",
+          "type": "expense",
+          "category": "Groceries",
+          "amount": 1500.50,
+          "date": "2024-06-02T15:00:00Z",
+          "note": "Weekly shopping",
+          "repeatIntervalDays": 7,
+          "wantOrNeed": true
+        }
+      ]
+    }
+  ],
+  "goals": [
+    {
+      "id": "G1",
+      "title": "Tatil",
+      "targetAmount": 20000.00,
+      "currentAmount": 5000.00,
+      "deadline": "2024-12-31T00:00:00Z"
+    }
+  ],
+  "wishes": [
+    {
+      "id": "W1",
+      "title": "Yeni Bisiklet",
+      "estimatedCost": 8000.00,
+      "isApproved": false
+    }
+  ]
+} 
